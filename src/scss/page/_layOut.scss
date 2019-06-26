@@ -1,0 +1,79 @@
+.layOut {
+    display: flex;
+
+    .sidebar {
+        width: 11%;
+        background-color: black;
+        height: 100vh;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        h2 {
+            color: #fff;
+        }
+
+        &__img {
+            width: 100%;
+            lighting-color: black;
+            // border-radius: 1rem;
+            // box-shadow: 4px 4px 3px rgba(20%,20%,40%,0.5);
+            // z-index: 99;
+        }
+
+        &__tittle {
+            padding: .7rem;
+            background-color: #2ba163;
+        }
+
+
+        &--icon {
+            display: block;
+            font-size: 2rem;
+            color: #7d7c7ccc;
+            margin-bottom: 0.2rem;
+        }
+
+        &--contact {
+            font-size: 1rem;
+            margin-right: .7rem;
+        }
+
+        &--li {
+            background: linear-gradient(45deg, #FF9F55 50%, #1c1c1c 50%);
+            position: relative;
+            background-size: 300%;
+            background-position: 100%;
+            transition: 0.5s, font-size 0.2s;
+        }
+
+        &--li:hover{
+            background-position: 0;
+            font-size: 1.1em;
+        }
+
+        ul {
+            padding: 0;
+            margin: 0;
+            color: #f7f2f2cc;
+        }
+
+        ul li {
+            border-bottom: 1px solid rgba(225, 246, 255, 0.07);
+            padding: 1.5rem;
+            cursor: pointer;
+
+            &:last-child {
+                border: none;
+                cursor: default;
+            }
+        }
+
+    }
+
+    .body {
+        flex: 1;
+        margin-left: 11%;
+    }
+}

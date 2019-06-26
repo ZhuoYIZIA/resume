@@ -1,0 +1,58 @@
+.skill {
+    height: auto;
+    background-color: #ecf0f0;
+    padding: 5rem 0;
+    color: #345;
+    text-align: center;
+
+
+
+    h1 {
+        font-size: 5rem;
+        font-weight: 300;
+
+        &::after {
+            display: block;
+            height: .2rem;
+            background-color: red;
+            content: " ";
+            width: 10rem;
+            margin: 0 auto;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        i {
+            display: block;
+
+            // font-weight: 500;
+        }
+    }
+
+    h4 {
+        font-size: 4rem;
+    }
+
+    &__frontEnd {
+        img {
+            width: 7rem;
+            margin: 3rem;
+        }
+    }
+
+    &__backEnd {
+        img {
+            width: 7rem;
+            margin: 3rem;
+            // border: #345 solid 1px;
+            // border-radius: 1rem;
+        }
+    }
+
+    &__else {
+        img {
+            width: 7rem;
+            margin: 3rem;
+        }
+    }
+}

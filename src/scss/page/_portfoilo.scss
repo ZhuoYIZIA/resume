@@ -1,0 +1,17 @@
+.portfoilo {
+    height: auto;
+    background-color: #345;
+    padding: 5rem 15rem;
+    color: #ffffff;
+
+
+    h1 {
+        font-size: 5rem;
+        font-weight: 300;
+        text-align: center;
+
+        & i {
+            display: block;
+        }
+    }
+}
